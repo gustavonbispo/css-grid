@@ -6,7 +6,11 @@ h1 {
 
 #app {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 5px solid green;
 }
 
 #app > div {
