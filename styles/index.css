@@ -6,6 +6,7 @@ h1 {
 
 #app {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 #app > div {
