@@ -1,0 +1,17 @@
+@import url(global.css);
+
+h1 {
+  margin-bottom: 32px;
+}
+
+#app {
+  display: grid;
+}
+
+#app > div {
+  border: 1px solid red;
+}
+
+span {
+  border: 1px solid blue;
+}
