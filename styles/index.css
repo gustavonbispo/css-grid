@@ -12,8 +12,10 @@ h1 {
 #app {
   display: grid;
   height: 100vh;
-  gap: 12px;
   padding: 24px;
+
+  row-gap: 32px;
+  column-gap: 16px;
 
   grid-template-areas: 
   "header header header"
