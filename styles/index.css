@@ -17,10 +17,11 @@ h1 {
   row-gap: 32px;
   column-gap: 16px;
 
-  grid-template-areas: 
-  "header header header"
-  "main main aside"
-  "footer footer footer";
+  grid-template: 
+  "header header header" 500px 
+  "main main aside" 150px
+  "footer footer footer" 50px
+  ;
 
   margin-bottom: 64px;
 }
