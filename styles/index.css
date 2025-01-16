@@ -5,26 +5,32 @@ h1 {
   text-align: center;
 }
 
+#app > * {
+  border: 1px solid red;
+}
+
 #app {
   display: grid;
   height: 100vh;
   gap: 12px;
   padding: 24px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+
+  grid-template-areas: 
+  "header header header"
+  "main main aside"
+  "footer footer footer";
+
   margin-bottom: 64px;
 }
 
-#app > * {
-  border: 1px solid red;
-}
-
 #app header {
-  grid-row-start: 1;
-  grid-row-end: 4;
+  grid-area: header;
 }
 
 #app main {
-  grid-column: 2/4;
-  grid-row: 1/3;
+  grid-area: main;
+}
+
+#app footer {
+  grid-area: footer;
 }
